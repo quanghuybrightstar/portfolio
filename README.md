@@ -6,7 +6,7 @@ Portfolio is a modern and customizable personal portfolio web template built usi
 <img src="https://i.imgur.com/ZhdDDaW_d.webp?maxwidth=1520&fidelity=grand" alt="Portfolio" />
 </center>
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">portfolio.galvin</a>
+Live demo here: <a href="https://portfolio-galvin.vercel.app/" target="_blank">portfolio.galvin</a>
 <br/>
 
 -   [Features](#-features)
