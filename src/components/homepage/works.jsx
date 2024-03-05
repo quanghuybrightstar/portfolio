@@ -24,7 +24,7 @@ const Works = () => {
 								Web & Mobile Developer
 							</div>
 							<div className="work-duration">
-								06/2023 - Present
+								04/2023 - Present
 							</div>
 						</div>
 						<div className="work">
@@ -38,7 +38,7 @@ const Works = () => {
 								Front-end Developer
 							</div>
 							<div className="work-duration">
-								02/2023 - 05/2023
+								01/2023 - 04/2023
 							</div>
 						</div>
 					</div>
