@@ -1,11 +1,22 @@
 import React from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-
 import Card from "../common/card";
-
 import "./styles/works.css";
+import INFO from "../../data/user";
 
 const Works = () => {
+
+	const renderWorkItem = (itemWork) => {
+		return (
+			<div key={itemWork?.id} className="work">
+				<img src={itemWork.srcLogo} alt={itemWork.name} className="work-image" />
+				<div className="work-title">{itemWork.name}</div>
+				<div className="work-subtitle">{itemWork.subtitle}</div>
+				<div className="work-duration">{itemWork.startDate} - {itemWork.endDate}</div>
+			</div>
+		);
+	};
+
 	return (
 		<div className="works">
 			<Card
@@ -13,34 +24,7 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
-						<div className="work">
-							<img
-								src="./gk_corp.png"
-								alt="Gk Corp"
-								className="work-image"
-							/>
-							<div className="work-title">GK Corp</div>
-							<div className="work-subtitle">
-								Web & Mobile Developer
-							</div>
-							<div className="work-duration">
-								04/2023 - Present
-							</div>
-						</div>
-						<div className="work">
-							<img
-								src="./cti.jpg"
-								alt="Cti Group"
-								className="work-image"
-							/>
-							<div className="work-title">CTI Group</div>
-							<div className="work-subtitle">
-								Front-end Developer
-							</div>
-							<div className="work-duration">
-								01/2023 - 04/2023
-							</div>
-						</div>
+						{INFO.works.map((itemWork) => renderWorkItem(itemWork))}
 					</div>
 				}
 			/>

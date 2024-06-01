@@ -16,13 +16,13 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Front-end web, mobile app developer",
+		title: "FrontEnd web, Mobile app developer",
 		description:
 			"I am a frontend developer with reactJS and nextJS. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
-		title: "I’m Galvin. I live in Hanoi-Vietnam, where I design the future.",
+		title: "I’m Galvin. I live in Hanoi-Vietnam where I design the future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -35,6 +35,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "English Mastery Hub",
+			description:
+				"Comprehensive support system for online English learning center: Admin, Teacher, and Student.",
+			logo: "./logo_emh.png",
+			linkText: "View Project",
+			link: "https://github.com/vanlinh20020435/EnglishMasteryHub",
+		},
+		{
 			title: "DashBoard",
 			description:
 				"Website dashboard for managing electronic products for commercial stores using management charts, categories, products, ...",
@@ -42,7 +50,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/quanghuybrightstar/DashBoard",
 		},
-
 		{
 			title: "Main City",
 			description:
@@ -56,7 +63,7 @@ const INFO = {
 			title: "Monopoly Game",
 			description:
 				"A game developed based on the legendary monopoly game with dice rotation, items and attractive rewards, ... built with Phaser 3.",
-			logo: "https://i.ibb.co/8DcnVMw/logo.png",
+			logo: "./logo_monopoly.png",
 			linkText: "View Project",
 			link: "https://github.com/quanghuybrightstar/MonopolyGame",
 		},
@@ -79,6 +86,33 @@ const INFO = {
 		// 	link: "https://github.com",
 		// },
 	],
+
+	works: [
+		{
+			id: 1,
+			name: 'VNTravel Group',
+			subtitle: 'FrontEnd Developer',
+			startDate: '04/2024',
+			endDate: 'Present',
+			srcLogo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRElheAZOQ8RIb6qt6rAn6Dkyh83w0RDAByxA&s' 
+		},
+		{
+			id: 2,
+			name: 'GK Corp',
+			subtitle: 'Web & Mobile Developer',
+			startDate: '04/2023',
+			endDate: '04/2024',
+			srcLogo: './gk_corp.png' 
+		},
+		{
+			id: 3,
+			name: 'CTI Group',
+			subtitle: 'FrontEnd Developer',
+			startDate: '01/2023',
+			endDate: '04/2023',
+			srcLogo: './cti.jpg' 
+		},
+	]
 };
 
 export default INFO;
