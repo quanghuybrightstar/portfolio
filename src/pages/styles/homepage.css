@@ -94,13 +94,22 @@
 }
 
 @media (max-width: 1024px) {
+	.homepage-logo-container {
+		padding-top: 100px;
+	}
+
+	.homepage-logo-container>div {
+		left: 10px;
+	}
+
 	.homepage-first-area {
 		flex-direction: column;
 	}
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
+		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
@@ -124,8 +133,8 @@
 	}
 
 	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 24px;
+		padding-bottom: 24px;
 		margin-left: 10px;
 		order: 1;
 	}
@@ -136,6 +145,7 @@
 
 	.homepage-projects {
 		flex-basis: auto;
+		padding-top: 20px;
 	}
 
 	.homepage-articles {
@@ -144,7 +154,7 @@
 
 	.homepage-works {
 		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
+		margin-left: -8px;
+		margin-right: -22px;
 	}
 }

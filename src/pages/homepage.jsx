@@ -25,8 +25,6 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
-	const [logoSize, setLogoSize] = useState(80);
-	const [oldLogoSize, setOldLogoSize] = useState(80);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -38,23 +36,16 @@ const Homepage = () => {
 
 			let newLogoSize = 80 - (scroll * 4) / 10;
 
-			if (newLogoSize < oldLogoSize) {
-				if (newLogoSize > 40) {
-					setLogoSize(newLogoSize);
-					setOldLogoSize(newLogoSize);
-					setStayLogo(false);
-				} else {
-					setStayLogo(true);
-				}
-			} else {
-				setLogoSize(newLogoSize);
+			if (newLogoSize > 38) {
 				setStayLogo(false);
+			} else {
+				setStayLogo(true);
 			}
 		};
 
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, [logoSize, oldLogoSize]);
+	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -84,7 +75,7 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							<Logo width={stayLogo ? 38 : 80} link={false} />
 						</div>
 					</div>
 

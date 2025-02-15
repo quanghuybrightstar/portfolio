@@ -17,6 +17,10 @@
 
 @media (max-width: 600px) {
 	.all-projects-project {
-		width: calc(100% / 2);
+		width: 100%;
+	}
+
+	.all-projects-project:not(:last-child) {
+		border-bottom: 1px solid #a6a6a6;
 	}
 }

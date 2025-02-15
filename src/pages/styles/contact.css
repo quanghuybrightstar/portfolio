@@ -10,7 +10,7 @@
 	border: 1px solid white;
 	border-radius: 50%;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
+	top: 3vh;
 }
 
 .contact-subtitle {
@@ -35,4 +35,10 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+@media (max-width: 600px) {
+	.contact-logo {
+		left: 10px;
+	}
 }

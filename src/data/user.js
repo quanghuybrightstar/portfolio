@@ -92,7 +92,7 @@ const INFO = {
 			id: 1,
 			name: 'VNTravel Group',
 			subtitle: 'FrontEnd Developer',
-			startDate: '04/2024',
+			startDate: '03/2024',
 			endDate: 'Present',
 			srcLogo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRElheAZOQ8RIb6qt6rAn6Dkyh83w0RDAByxA&s' 
 		},
@@ -101,7 +101,7 @@ const INFO = {
 			name: 'GK Corp',
 			subtitle: 'Web & Mobile Developer',
 			startDate: '04/2023',
-			endDate: '04/2024',
+			endDate: '03/2024',
 			srcLogo: './gk_corp.png' 
 		},
 		{

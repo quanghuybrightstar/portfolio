@@ -67,6 +67,10 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: fit-content;
+	}
+
+	.project-container {
+		padding: 20px 30px;
 	}
 }
