@@ -7,7 +7,7 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/Galvin2907",
+		twitter: "https://x.com/huydq_itd",
 		github: "https://github.com/quanghuybrightstar",
 		linkedin: "https://www.linkedin.com/in/galvin2907/",
 		instagram: "https://www.instagram.com/tuilahuyday_/",
