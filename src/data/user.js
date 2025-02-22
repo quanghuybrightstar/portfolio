@@ -76,43 +76,27 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/quanghuybrightstar/RacingGame",
 		},
-
-		// {
-		// 	title: "Project 5",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
 	],
 
 	works: [
 		{
 			id: 1,
-			name: 'VNTravel Group',
-			subtitle: 'FrontEnd Developer',
-			startDate: '03/2024',
-			endDate: 'Present',
-			srcLogo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRElheAZOQ8RIb6qt6rAn6Dkyh83w0RDAByxA&s' 
+			name: "VNTravel Group",
+			subtitle: "FrontEnd Developer",
+			startDate: "04/2024",
+			endDate: "Present",
+			srcLogo:
+				"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRElheAZOQ8RIb6qt6rAn6Dkyh83w0RDAByxA&s",
 		},
 		{
 			id: 2,
-			name: 'GK Corp',
-			subtitle: 'Web & Mobile Developer',
-			startDate: '04/2023',
-			endDate: '03/2024',
-			srcLogo: './gk_corp.png' 
+			name: "GK Corp",
+			subtitle: "Web & Mobile Developer",
+			startDate: "01/2023",
+			endDate: "04/2024",
+			srcLogo: "./gk_corp.png",
 		},
-		{
-			id: 3,
-			name: 'CTI Group',
-			subtitle: 'FrontEnd Developer',
-			startDate: '01/2023',
-			endDate: '04/2023',
-			srcLogo: './cti.jpg' 
-		},
-	]
+	],
 };
 
 export default INFO;
